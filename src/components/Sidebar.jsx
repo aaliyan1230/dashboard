@@ -26,7 +26,7 @@ export default function Sidebar() {
       <SidebarSection icon="/images/PriceChart.png" text="Price Chart" />
       <SidebarSection icon="/images/Documentation.png" text="Documentation" />
 
-      <div className="flex justify-center gap-8 m-8">
+      <div className="flex justify-center gap-10 m-8">
         <span>
           <img src="../images/twitter.png" alt="twitter logo" />
         </span>

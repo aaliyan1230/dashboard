@@ -1,5 +1,5 @@
 import React from "react";
-import Tile from "./Tile";
+import Tile from "../components/Tile";
 
 export default function Dashboard() {
   return (
@@ -12,9 +12,9 @@ export default function Dashboard() {
         Connect Wallet
       </button>
       </div>
-      <div className="align-middle mx-28">
+      <div className="align-middle mx-36">
         <h1 className="text-yellow-600 text-center font-bold text-3xl m-12 mt-2">EPOCH STALKING</h1>
-        <div className="grid grid-cols-2 gap-2 content-center">
+        <div className="grid grid-cols-2 gap-4 content-center">
           <Tile title="PASS Price" value="$1520.33" />
           <Tile title="APR  /  EPR" value="3280%     3%" />
           <Tile title="PASS Price" value="$1520.33" />
