@@ -8,6 +8,11 @@
   src:  url('fonts/Jost.woff') format('woff'),
 }
 
+@font-face {
+  font-family: 'Meedori-Sans';
+  src:  url('fonts/Meedori-Sans-Regular.woff') format('woff'),
+}
+
 
 
 /* install meedori sans, jost, font */

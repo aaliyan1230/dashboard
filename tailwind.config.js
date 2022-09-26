@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         jost: ["Jost"],
+        meedorisans:["Meedori-Sans"],
       },
     },
   },
