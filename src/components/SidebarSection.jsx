@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function SidebarSection({img, text}){
+export default function SidebarSection({icon, text}){
     return(
-        <div>
-            <span><img src={img} alt="icon" /></span> {text}
+        <div className="flex">
+            <span><img src={`${icon}`} alt="icon" /></span> {text}
         </div>
     );
 }
