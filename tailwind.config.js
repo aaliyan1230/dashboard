@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        jost: ["Jost"],
-        meedorisans:["Meedori-Sans"],
+        jost: ['Jost', 'sans-serif'],
+        meedorisans:['Meedori-Sans'],
       },
     },
   },

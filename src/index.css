@@ -3,16 +3,7 @@
 @tailwind utilities;
 
 
-@font-face {
-  font-family: 'Jost';
-  src:  url('fonts/Jost.woff') format('woff'),
-}
-
-@font-face {
-  font-family: 'Meedori-Sans';
-  src:  url('fonts/Meedori-Sans-Regular.woff') format('woff'),
-}
-
-
+@font-face { font-family: Meedori-Sans; 
+  src: url('./fonts/Meedori-Sans-Regular.woff'); } 
 
 /* install meedori sans, jost, font */
