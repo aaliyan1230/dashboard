@@ -5,7 +5,7 @@ import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <div className="App flex text-white" style={{backgroundImage: "url(/images/bigstock-Astronaut-in-suit-against-blac-434152580.png)"}} >
+    <div className="App flex bg-contain text-white font-jost" style={{backgroundImage: "url(/images/bigstock-Astronaut-in-suit-against-blac-434152580.png)"}} >
       <Sidebar />
       <Dashboard/>
     </div>
